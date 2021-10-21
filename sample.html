@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title></title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="themes/css/bootstrap4-admin-compress.min.css">
+<link rel="stylesheet" type="text/css" href="css/default.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript" src="js/java.js"></script> 
 </head>
@@ -29,16 +29,16 @@
                         <div class="Scriptcontent">
               
                             <!-- Stepper HTML -->
-                     <div class="step">
+                     <div class="step step-active">
                        <div>
-                         <div class="circle"><i class="fa fa-check"></i></div>
+                         <div class="circle">1</div>
                        </div>
                        <div>
                          <div class="title">First Step</div>
                          <div class="caption">Optional</div>
                        </div>
                      </div>
-                     <div class="step step-active">
+                     <div class="step">
                        <div>
                          <div class="circle">2</div>
                        </div>
@@ -70,7 +70,7 @@
                                 
                                  </div>
                       </div>
-                      <div class="col-md-9">
+                      <div class="col-md-9 p30">
                         <div class="card2 first-screen show ml-2">
                           <h3>Your Personal Details</h3>
                           <p>Loerem Epsum loerem epsum.</p>
@@ -80,13 +80,13 @@
                               </div>
                               <div class="col-md-8">
                                   <div class="row align">
-                                      <div class="col-md-3">
-                                        <img class="dp" src="themes/images/card-image-2.jpg" />
+                                      <div class="col-md-3 imgmob">
+                                        <img class="dp" src="images/card-image-2.jpg" />
                                       </div>
-                                      <div class="col-md-1">
+                                      <div class="col-md-2 ot1">
                                         <p>Edit</p>
                                       </div>
-                                      <div class="col-md-2">
+                                      <div class="col-md-2 ot2">
                                         <p>Remove</p>
                                     </div>
                                   </div>
@@ -269,14 +269,18 @@
                         
                         
                         <!-- Button -->
-                        <div class="form-group">
-                          <label class="col-md-4 control-label"></label>
-                          <div class="col-md-4"><br>
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning" aria-placeholder="Cancel">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCancel <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+                        
+                        
+                          <div class="row">
+                          <div class="col-md-4">
+                            <div class="form-group">
+                            <button type="submit" class="btn btn-warning" aria-placeholder="Cancel">Cancel <span class="glyphicon glyphicon-send"></span></button>
+                          </div></div>
+                          <div class="col-md-4">
+                            <div class="form-group">
+                            <button type="submit" class="btn btn-warning" >Save and Continue <span class="glyphicon glyphicon-send"></span></button>
                           </div>
-                          <div class="col-md-4"><br>
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSave and Continue <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
-                          </div>
+                        </div>
                         </div>
                         
                         </fieldset>
